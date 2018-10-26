@@ -1,0 +1,39 @@
+body{
+    margin: 0;  
+  }
+* {
+    box-sizing: border-box;
+} 
+
+.feedbackBtn{
+        
+	background-color: antiquewhite;
+        
+	font-size: 120%;
+        
+	cursor: pointer;
+
+    
+}
+
+/******************************  FOOTER  ****************************************/
+
+.footer{
+        
+           background-color:lightgoldenrodyellow;
+           overflow: hidden;
+           z-index: -30;
+} 
+.footer a{
+            color: #333;
+            overflow: hidden;
+            z-index: -999;
+}  
+.footer a:hover{
+             font-weight: bold;
+             color: black;
+} 
+
+
+
+           

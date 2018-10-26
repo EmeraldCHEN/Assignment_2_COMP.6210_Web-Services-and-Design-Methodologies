@@ -1,0 +1,14 @@
+use containerdb;
+
+CREATE TABLE IF NOT EXISTS tbl_umf5 (
+
+    ID INT(11) AUTO_INCREMENT,
+    WEIGHT VARCHAR(100) NOT NULL,
+    IMAGE VARCHAR(255) NOT NULL,   
+    PRICE VARCHAR(50) NOT NULL,
+    PRIMARY KEY (ID)
+) AUTO_INCREMENT = 1;
+
+INSERT INTO tbl_umf5 (WEIGHT, IMAGE, PRICE) VALUES ('250g', 'streamland_15', '$19.90');
+INSERT INTO tbl_umf5 (WEIGHT, IMAGE, PRICE) VALUES ('500g', 'gohealth_5', '$29.90');
+INSERT INTO tbl_umf5 (WEIGHT, IMAGE, PRICE) VALUES ('1kg', 'streamland_5', '$39.90');

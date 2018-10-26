@@ -1,0 +1,14 @@
+use containerdb;
+
+CREATE TABLE IF NOT EXISTS tbl_blend (
+
+    ID INT(11) AUTO_INCREMENT,
+    WEIGHT VARCHAR(100) NOT NULL,
+    IMAGE VARCHAR(255) NOT NULL,   
+    PRICE VARCHAR(50) NOT NULL,
+    PRIMARY KEY (ID)
+) AUTO_INCREMENT = 1;
+
+INSERT INTO tbl_blend (WEIGHT, IMAGE, PRICE) VALUES ('250g', 'blend', '$16.90');
+INSERT INTO tbl_blend (WEIGHT, IMAGE, PRICE) VALUES ('500g', 'blend_2', '$26.90');
+INSERT INTO tbl_blend (WEIGHT, IMAGE, PRICE) VALUES ('1kg', 'blend', '$36.90');

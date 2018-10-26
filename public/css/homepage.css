@@ -1,0 +1,156 @@
+body {
+    margin: 0;                  
+}
+
+/*  LOGO with text at the top center *****************************/
+.top-logo {
+    padding-bottom: 3%;
+    text-align: center;
+    width: 100%;
+    color:gold;
+    font-family:monospace;
+}
+.largeFont{
+    font-size: 488%;
+    line-height: 400%;
+}
+.smallerFont{
+    font-size: 366%; 
+}
+.top-logo img { 
+    vertical-align: middle;
+    width: 8%; 
+    text-align: center;
+}
+
+ @media screen and (min-width:100px) and (max-width:666px){
+   
+     .largeFont{
+            font-size: 388%;
+            line-height: 200%;
+     }
+     .smallerFont{
+            font-size: 288%; 
+     }
+     .top-logo img { 
+            width: 28%; 
+     }
+   
+   
+     
+}
+ @media screen and (min-width:667px) and (max-width:922px){
+  
+     .top-logo img { 
+            width: 18%; 
+     }
+}
+
+/* Scroll 4 more ... **********************************************/
+
+.scroll{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -1%;
+    margin-bottom: 12%;
+    color: darkgrey;
+}     
+.arrow{
+    font-size: 200%;
+    animation: change 2s linear 0s infinite;
+}
+@keyframes change {
+    0% {
+        color: crimson;
+        transform: translate(0px, 0px); 
+        }
+    45% {
+        color: gold;
+        transform: translate(0px, -8px); 
+        }
+    75% {
+        color:darkgrey;
+        transform: translate(0px, 8px); 
+        }
+    100% {
+        color: crimson;
+        transform: translate(0px, 0px); 
+        }
+
+}
+ /******************************  conent  ****************************************/  
+
+
+.centeredText{  
+   
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    cursor:pointer;       
+    font-family:monospace;
+    font-size: 422%;
+    text-decoration-line:overline underline;
+   
+    text-decoration-style:dashed;
+     animation: colorChange 4s infinite;
+}
+
+.centeredText:hover
+{
+    text-decoration: none;
+    color: crimson;
+}
+.content img { 
+    position: relative; 
+}
+
+
+@keyframes colorChange {
+    0% {
+        color: crimson;
+        
+        }
+    45% {
+        color: gold;
+        
+        }
+    75% {
+        color:black;
+         
+        }
+    100% {
+        color: crimson;
+       
+        }
+
+}
+@media screen and (min-width:288px) and (max-width:466px){
+    .centeredText{  
+                font-size: 156%;          
+   
+    }
+}
+@media screen and (min-width:465px) and (max-width:887px){
+    .centeredText{  
+                font-size: 250%;            
+    }
+}
+
+/******************************  FOOTER  ****************************************/
+
+.footer{
+           background-color:lightgoldenrodyellow;
+            overflow: hidden;
+           z-index: -30;
+} 
+.footer a{
+            color: #333;
+            overflow: hidden;
+            z-index: -999;
+}  
+.footer a:hover{
+             font-weight: bold;
+             color: black;
+} 
+
+

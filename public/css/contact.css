@@ -1,0 +1,36 @@
+body{
+    margin: 0; 
+    height: 100%;
+  }
+* {
+    box-sizing: border-box;
+} 
+
+
+/******************************* Live map ****************************************/
+
+#map{
+     width: 100%;
+}
+
+
+ /********************************** FOOTER *************************************************/
+
+
+.footer{
+          
+           background-color:lightgoldenrodyellow;
+           /*overflow: hidden; */
+           z-index: -30;
+} 
+.footer a{
+            color: #333;
+            overflow: hidden;
+            z-index: -999;
+}  
+.footer a:hover{
+             font-weight: bold;
+             color: black;
+} 
+
+
