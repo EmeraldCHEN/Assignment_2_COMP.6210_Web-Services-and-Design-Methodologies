@@ -1,5 +1,3 @@
-# comp6210-18s2-assn2-EmeraldNZ
-comp6210-18s2-assn2-EmeraldNZ created by GitHub Classroom
 
 COMP.6210
  
