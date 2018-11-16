@@ -9,8 +9,8 @@
     define ("DBPASS", "root");
     define ("DBNAME", "containerdb");
 
-    define ("GUSER", "ahyuancy@gmail.com");
-    define ("GPASS", "01478963014789630");
+    define ("GUSER", "**********@gmail.com");
+    define ("GPASS", "********************");
 
 
 
