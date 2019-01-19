@@ -8,8 +8,7 @@ body{
 
 /******************************    Content        *********************************************************************/
 
-
- .photo {
+.photo {
    position: absolute;
    
     width: 100%;
@@ -18,7 +17,7 @@ body{
    /* background-position: center;*/
      background-size: cover; 
      transition: transform .5s ease-out;
-    }
+ }
 .tiles {
       position: relative;  
       width: 100%;
@@ -35,12 +34,12 @@ body{
     min-height: 200px;
     cursor:zoom-in;
 
-    }
-    .htz{
+  }
+ .htz{
       font-size: 85%;
         color: darkgray;
         padding-left: 320;
-    }
+  }
     @media screen and (min-width:100px) and (max-width:1000px){
    .tile{
         left: 10;
