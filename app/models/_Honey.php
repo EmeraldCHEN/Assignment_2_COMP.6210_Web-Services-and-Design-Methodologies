@@ -20,8 +20,6 @@
         }
       
       
-      
-      
         public function getSingleUMF10($id) {
                    
             $this->db->query("SELECT * FROM tbl_umf10");
@@ -60,8 +58,6 @@
       
       
       
-      
-      
        public function getSingleMGO($id) {
                   
             $this->db->query("SELECT * FROM tbl_mgo");
@@ -80,9 +76,7 @@
                   
             $this->db->query("SELECT * FROM tbl_blend");
             return $this->db->resultSet();
-       }
-      
-          
+       } 
     
   }
 ?>
