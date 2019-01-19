@@ -1,11 +1,11 @@
 <?php include(APPROOT . "/views/includes/header_about_feedback.php"); ?>   
 
     
-<!-------------------------------------------- Navigation  ---------------------------->
+<!-- Navigation  ---------------------------->
 
 <?php include(APPROOT . "/views/includes/navigation.php"); ?>
         
-<!---------------------------- Feedback Form ---------------------------->   
+<!-- Feedback Form ---------------------------->   
     <div class="row">
             <div class="col">
                 <br>
